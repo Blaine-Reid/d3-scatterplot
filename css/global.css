@@ -1,0 +1,42 @@
+
+*{
+    margin :0px;
+}
+
+body{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+}
+
+circle{
+opacity: 0.8;
+}
+
+text{
+    font-family: sans-serif;
+}
+
+/* target the text of the chart */
+.tick text{
+    font-size: 1.75em;
+    fill:#8E8883
+}
+
+/* select the lines on the chart */
+.tick line{
+    stroke:#C0C0BB
+}
+
+.axis-label{
+    font-size: 3.5em;
+    fill:#8E8883
+}
+
+#title{
+    font-size: 3em;
+    fill:#635F5D
+}
+
